@@ -1,5 +1,5 @@
 {
-  "name": "DriveByGSO",
+  "name": "drivebygso",
   "version": "0.0.1",
   "description": "GSO APP fuer Mitfahrgelegenheiten",
   "engines": {
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "ejs": "2.5.6",
-    "express": "4.15.2"
+    "express": "4.15.2",
+    "request-json": "^0.6.2"
   },
   "devDependencies": {
     "request": "^2.81.0",
