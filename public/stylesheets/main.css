@@ -23,7 +23,10 @@ body {
 	  font-weight: normal;
 	}
 
+
 	.form-control {
+		margin-bottom: 10px;
+		border-radius: 0;
 	  position: relative;
 	  font-size: 16px;
 	  height: auto;
