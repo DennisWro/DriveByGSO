@@ -57,12 +57,20 @@ app.get('/main', function(req, res) {
   }
 });
 
-app.get('/index', function(request, response) {
-  response.render('pages/index');
+app.get('/index', function(req, res) {
+  if(loggedIn) {
+      res.redirect('main');
+  } else {
+      res.render('pages/index');
+  }
 });
 
-app.get('/', function(request, response) {
-  response.render('pages/index');
+app.get('/', function(req, res) {
+  if(loggedIn) {
+      res.redirect('main');
+  } else {
+      res.render('pages/index');
+  }
 });
 
 
